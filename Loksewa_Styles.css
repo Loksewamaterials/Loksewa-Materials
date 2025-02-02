@@ -1,0 +1,155 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall page styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f97316;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+/* Section headers */
+h1, h2, h3 {
+    color: #1E3A8A;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* E-book Section */
+#ebooks {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ebook {
+    background-color: #f9fafb;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #f97316;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #D97706;
+}
+
+/* About Us Section */
+#about {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #f9fafb;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* FAQ Section */
+#faq {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
